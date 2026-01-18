@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-public class Question
+﻿public class Question
 {
+    public string Id { get; set; }
     public string Text { get; set; }
     public string[] Options { get; set; }
     public int CorrectIndex { get; set; }
