@@ -1,16 +1,30 @@
 [
   {
-    "GroupName": "Mathematics",
+    "GroupName": "Network",
     "Questions": [
       {
-        "Text": "What is 5 + 7?",
-        "Options": [ "10", "11", "12", "13" ],
-        "CorrectIndex": 2
+        "Id": "NW001",
+        "Text": "A routing table entry with a prefix of 0.0.0.0/0 is known as:",
+        "Options": [ "Default route", "Static route", "Gateway of last resort", "Backbone route" ],
+        "CorrectIndex": 0
       },
       {
-        "Text": "Which number is prime?",
-        "Options": [ "4", "6", "7", "9" ],
-        "CorrectIndex": 2
+        "Id": "NW002",
+        "Text": "Which command is used to configure a static route on a Cisco router?",
+        "Options": [ "ip route <destination> <mask> <next-hop>", "route add <next-hop>", "ip static <network> <gateway>", "set route <destination>" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "NW003",
+        "Text": "The Application layer provides services directly to:",
+        "Options": [ "Network devices", "User applications", "MAC addresses", "IP addresses" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "NW004",
+        "Text": "The IEEE standard for Ethernet is:",
+        "Options": [ "802.1D", "802.3", "802.11", "802.1Q" ],
+        "CorrectIndex": 1
       }
     ]
   },
@@ -18,11 +32,13 @@
     "GroupName": "Science",
     "Questions": [
       {
+        "Id": "SC001",
         "Text": "What planet is known as the Red Planet?",
         "Options": [ "Earth", "Mars", "Jupiter", "Saturn" ],
         "CorrectIndex": 1
       },
       {
+        "Id": "SC002",
         "Text": "What is the boiling point of water?",
         "Options": [ "90°C", "100°C", "110°C", "120°C" ],
         "CorrectIndex": 1
