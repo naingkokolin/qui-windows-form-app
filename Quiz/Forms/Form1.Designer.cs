@@ -71,6 +71,7 @@
             btnShowAnswer.TabIndex = 3;
             btnShowAnswer.Text = "Show Answer";
             btnShowAnswer.UseVisualStyleBackColor = true;
+            btnShowAnswer.Click += btnShowAnswer_Click;
             // 
             // btnNext
             // 
@@ -80,11 +81,12 @@
             btnNext.TabIndex = 4;
             btnNext.Text = "Next";
             btnNext.UseVisualStyleBackColor = true;
+            btnNext.Click += btnNext_Click;
             // 
             // lblOptionA
             // 
             lblOptionA.AutoSize = true;
-            lblOptionA.Location = new Point(343, 227);
+            lblOptionA.Location = new Point(343, 168);
             lblOptionA.Name = "lblOptionA";
             lblOptionA.Size = new Size(24, 25);
             lblOptionA.TabIndex = 5;
@@ -93,7 +95,7 @@
             // lblOptionB
             // 
             lblOptionB.AutoSize = true;
-            lblOptionB.Location = new Point(561, 227);
+            lblOptionB.Location = new Point(345, 214);
             lblOptionB.Name = "lblOptionB";
             lblOptionB.Size = new Size(22, 25);
             lblOptionB.TabIndex = 6;
@@ -102,7 +104,7 @@
             // lblOptionC
             // 
             lblOptionC.AutoSize = true;
-            lblOptionC.Location = new Point(730, 229);
+            lblOptionC.Location = new Point(345, 259);
             lblOptionC.Name = "lblOptionC";
             lblOptionC.Size = new Size(23, 25);
             lblOptionC.TabIndex = 7;
@@ -111,7 +113,7 @@
             // lblOptionD
             // 
             lblOptionD.AutoSize = true;
-            lblOptionD.Location = new Point(917, 230);
+            lblOptionD.Location = new Point(345, 299);
             lblOptionD.Name = "lblOptionD";
             lblOptionD.Size = new Size(25, 25);
             lblOptionD.TabIndex = 8;

@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Media;
 using System.Windows.Forms;
 
 namespace Quiz
@@ -136,17 +137,38 @@ namespace Quiz
             if (timeLeft <= 0)
             {
                 timer1.Stop();
+                PlayAlarm();
 
                 // Disappear options so students stop writing
-                lblQuestion.Text = "TIME IS UP! Pencils down.";
-                foreach (var lbl in optionLabels) lbl.Visible = false;
+                lblQuestion.Text = "TIME IS UP!";
+                //foreach (var lbl in optionLabels) lbl.Visible = false;
 
                 btnShowAnswer.Visible = true;
             }
         }
 
+        private void PlayAlarm()
+        {
+            try
+            {
+                string soundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "alarm.wav");
+                if (File.Exists(soundPath))
+                {
+                    SoundPlayer player = new SoundPlayer(soundPath);
+                    player.Play(); // Use .PlaySync() if you want the app to wait for the sound
+                }
+            }
+            catch (Exception ex)
+            {
+                // Fail silently or show error
+                Console.WriteLine("Sound error: " + ex.Message);
+            }
+        }
+
         private void btnShowAnswer_Click(object sender, EventArgs e)
         {
+            foreach (var lbl in optionLabels) lbl.Visible = false;
+
             var q = activeQuizPool[currentIndex];
             char[] labels = { 'A', 'B', 'C', 'D' };
 
