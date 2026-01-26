@@ -1,44 +1,405 @@
 [
   {
-    "GroupName": "Network",
+    "GroupName": "Data Structure and Algorithm",
     "Questions": [
       {
-        "Id": "NW001",
-        "Text": "A routing table entry with a prefix of 0.0.0.0/0 is known as:",
-        "Options": [ "Default route", "Static route", "Gateway of last resort", "Backbone route" ],
+        "Id": "DSA001",
+        "Text": "Which of these is a divide and conquer algorithm?",
+        "Options": [ "Merge Sort", "Selection Sort", "Insertion Sort", "Bubble Sort" ],
         "CorrectIndex": 0
       },
       {
-        "Id": "NW002",
-        "Text": "Which command is used to configure a static route on a Cisco router?",
-        "Options": [ "ip route <destination> <mask> <next-hop>", "route add <next-hop>", "ip static <network> <gateway>", "set route <destination>" ],
-        "CorrectIndex": 0
+        "Id": "DSA002",
+        "Text": "What algorithm is used to find the shortest path in a graph?",
+        "Options": [ "Binary Search", "Depth First Search", "Linear Search", "Dijkstra's" ],
+        "CorrectIndex": 3
       },
       {
-        "Id": "NW003",
-        "Text": "The Application layer provides services directly to:",
-        "Options": [ "Network devices", "User applications", "MAC addresses", "IP addresses" ],
+        "Id": "DSA003",
+        "Text": "What is the worst case time complexity of a linear search?",
+        "Options": [ "O(n^2)", "O(log n)", "O(n)", "O(1)" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "DSA004",
+        "Text": "In DFS Cycle Detection, how is a cycle detected?",
+        "Options": [ "When there are no vertices left to visit", "When edge weights are negative", "When a vertex is discovered that has already been visited", "When edge weights are positive" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "DSA005",
+        "Text": "In Union-Find Cycle Detection,\n how is a cycle detected?",
+        "Options": [ "When two vertices belong to different unions", "When there is a higher number of \n negative vertices than positive ones", "When a new union if found", "When two vertices already belong to the same union" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "DSA006",
+        "Text": "In its most basic form, what does \n a node in a Linked List consist of?",
+        "Options": [ "Pointers to the head and tail of the Linked List", "Data", "An adjacency matrix", "One area for data, and one area\n with a pointer to the next node in the list" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "DSA007",
+        "Text": "Which data structure allows us \n to access any element directly?",
+        "Options": [ "Linked List", "Queue", "Array", "Stack" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "DSA008",
+        "Text": "What is the worst-case time complexity of Bubble Sort?",
+        "Options": [ "O(n log n)", "O(log n)", "O(n)", "O(n^2)" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "DSA009",
+        "Text": "In selection sort, what can be reduced by swapping array elements?",
+        "Options": [ "the highest value", "the lowest value", "the call stack", "memory shifts" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "DSA010",
+        "Text": "If an AVL tree has '2' as the balance factor,\n what kind of rotation is done to self-balance?",
+        "Options": [ "Up", "Right", "Left", "Down" ],
+        "CorrectIndex": 2
+      }
+    ]
+  },
+  {
+    "GroupName": "Application and Web Development Systems",
+    "Questions": [
+      {
+        "Id": "WD001",
+        "Text": "What does 'web development' mean?",
+        "Options": [ "Writing books for the web", "Creating and maintaining websites", "Designing computer hardware", "Making mobile applications" ],
         "CorrectIndex": 1
       },
       {
-        "Id": "NW004",
-        "Text": "The IEEE standard for Ethernet is:",
-        "Options": [ "802.1D", "802.3", "802.11", "802.1Q" ],
+        "Id": "WD002",
+        "Text": "What is the main role of a frontend developer?",
+        "Options": [ "To manage server databases", "To design user interfaces and website visuals", "To install operating systems", "To build antivirus software" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "WD003",
+        "Text": "Which of the following is NOT a frontend technology?",
+        "Options": [ "HTML", "CSS", "JavaScript", "MySQL" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "WD004",
+        "Text": "Frontend development mainly deals with:",
+        "Options": [ "How the website looks and feels", "Database storage", "Server performance", "Security monitoring" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "WD005",
+        "Text": "Which one is called the 'backbone' of a webpage?",
+        "Options": [ "JavaScript", "CSS", "HTML", "PHP" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "WD006",
+        "Text": "What does HTML stand for?",
+        "Options": [ "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Text Markup Language", "High Text Making Language" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "WD007",
+        "Text": "Which HTML tag is used to create a hyperlink?",
+        "Options": [ "<link>", "<href>", "<a>", "<url>" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "WD008",
+        "Text": "Which tag is used to display an image in HTML?",
+        "Options": [ "<img>", "<picture>", "<src>", "<image>" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "WD009",
+        "Text": "What does the <title> tag define?",
+        "Options": [ "The name shown inside the webpage content", "The text on the browser tab", "A main heading of the webpage", "A hyperlink text" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "WD010",
+        "Text": "Which tag is used for the largest heading in HTML?",
+        "Options": [ "<h6>", "<h1>", "<head>", "<heading>" ],
         "CorrectIndex": 1
       }
     ]
   },
   {
-    "GroupName": "Science",
+    "GroupName": "Software Development Fundamentals",
     "Questions": [
       {
-        "Id": "SC001",
+        "Id": "SDF001",
+        "Text": "What is a correct syntax to output 'Hello World' in C#?",
+        "Options": [ "print (\"Hello World\");", "Console.WriteLine(\"Hello World\");", "cout << \"Hello World\";", "System.out.println(\"Hello World\");" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "SDF002",
+        "Text": "What is the correct way to create an object called myObj of MyClass?",
+        "Options": [ "MyClass myObj = new MyClass();", "class MyClass = new myObj();", "class myObj = new MyClass();", "new myObj = MyClass();" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "SDF003",
+        "Text": "How do you start writing a while loop in C#?",
+        "Options": [ "while (x > y)", "while x > y:", "x > y while {", "while x > y {" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "SDF004",
+        "Text": "Which button class is used to \n create a large button (Bootstrap)?",
+        "Options": [ ".btn-xl", ".btn-l", ".btn-large", ".btn-lg" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "SDF005",
+        "Text": "How can you insert a search icon (Glyphicon)?",
+        "Options": [ "<span class=\"glyphicon search\"></span>", "<span class=\"glyphicon glyphicon-search\"></span>", "<span class=\"glyph glyph-search\"></span>", "<span class=\"glyphicon-search\"></span>" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "SDF006",
+        "Text": "A standard navigation tab is created with:",
+        "Options": [ "<ul class=\"nav nav-tabs\">", "<ul class=\"nav tabs\">", "<ul class=\"navigation-tabs\">", "<ul class=\"nav nav-navbar\">" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "SDF007",
+        "Text": "Which class is used to create a black navigation bar (Bootstrap 3)?",
+        "Options": [ ".navbar-default", ".navbar-dark", ".navbar-inverse", ".navbar-black" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "SDF008",
+        "Text": "Which plugin is used to cycle through elements, like a slideshow?",
+        "Options": [ "Carousel", "Orbit", "Slideshow", "Scrollspy" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "SDF009",
+        "Text": "How to write an IF statement for executing \n some code if 'i' is NOT equal to 5?",
+        "Options": [ "if i <> 5", "if i =! 5 then", "if (i != 5)", "if (i <> 5)" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "SDF010",
+        "Text": "State the Primary Goal of Root Cause \n Analysis in Software Debugging.",
+        "Options": [ "For bug prioritization", "For issue documentation", "For fixing visible and immediate bugs", "For identification of problems leading to software defects" ],
+        "CorrectIndex": 3
+      }
+    ]
+  },
+  {
+    "GroupName": "Database Management Systems",
+    "Questions": [
+      {
+        "Id": "DBMS001",
+        "Text": "In SQL, which of the following \n is not a data definition language commands?",
+        "Options": [ "RENAME", "REVOKE", "GRANT", "UPDATE" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "DBMS002",
+        "Text": "Database management systems are intended to:",
+        "Options": [ "Eliminate data redundancy", "Establish relationships among records in different files", "Manage file access", "All of the above" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "DBMS003",
+        "Text": "In SQL, which command is used to \n select only one copy of each set of duplicable rows?",
+        "Options": [ "SELECT DISTINCT", "SELECT UNIQUE", "SELECT DIFFERENT", "None of the above" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "DBMS004",
+        "Text": "Which one of the following is a set of one or \n more attributes taken collectively to uniquely identify a record?",
+        "Options": [ "Super Key", "Candidate Key", "Sub Key", "Foreign Key" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "DBMS005",
+        "Text": "Ensuring atomicity is the responsibility of the component:",
+        "Options": [ "File Manager", "Buffer Manager", "Transaction Manager", "DBA" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "DBMS006",
+        "Text": "Which level describes what data is stored \n in the database and the relationships among the data?",
+        "Options": [ "Physical Level", "Conceptual Level", "None of the above", "All of the above" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "DBMS007",
+        "Text": "What stores metadata about the structure of the database?",
+        "Options": [ "Physical database", "Query Analyzer", "Data Dictionary", "Data Catalog" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "DBMS008",
+        "Text": "Who is responsible to define the content,\n the structure, the constraints, and functions or transactions against the database?",
+        "Options": [ "Transaction Manager", "Query Analyzer", "DBA", "All the above" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "DBMS009",
+        "Text": "What is a collection of operations that \n perform a single logical function in a database application?",
+        "Options": [ "Transaction", "Concurrent operation", "Atomicity", "Durability" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "DBMS010",
+        "Text": "The problem that is compounded when constraints \n involve several data items from different files is called:",
+        "Options": [ "Transaction Control Management Problem", "Security Problem", "Integrity Problem", "Durability Problem" ],
+        "CorrectIndex": 2
+      }
+    ]
+  },
+  {
+    "GroupName": "IoT and Cyber Security Fundamental",
+    "Questions": [
+      {
+        "Id": "IOT001",
+        "Text": "Who coined the term 'Internet of Things'?",
+        "Options": [ "Kevin Aston", "John Wright", "Edward Jameson", "George Garton" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "IOT002",
+        "Text": "When was the actual term 'Internet of Things' coined?",
+        "Options": [ "1998", "1999", "2000", "2002" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "IOT003",
+        "Text": "Which of the following is not an IoT platform?",
+        "Options": [ "Amazon Web Services", "Microsoft Azure", "Salesforce", "Flipkart" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "IOT004",
+        "Text": "Which of the following is false about IoT devices?",
+        "Options": [ "IoT devices use the internet for collecting and sharing data", "IoT devices need microcontrollers", "IoT devices use wireless technology", "IoT devices are completely safe" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "IOT005",
+        "Text": "Which of the following is not an application of IoT?",
+        "Options": [ "BMP280", "Smart home", "Smart city", "Self-driven cars" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "IOT006",
+        "Text": "What is the full form of IIOT?",
+        "Options": [ "Index Internet of Things", "Incorporate Internet of Things", "Industrial Internet of Things", "Intense Internet of Things" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "IOT007",
+        "Text": "Which of the following is false about the IoT components?",
+        "Options": [ "A light sensor (photoresistor) is an analog sensor", "A microphone is a digital sensor", "A push button is a digital sensor", "A keyboard is a digital sensor" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "IOT008",
+        "Text": "Which of the following is used to capture data \n from the physical world in IoT devices?",
+        "Options": [ "Sensors", "Actuators", "Microprocessors", "Microcontrollers" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "IOT009",
+        "Text": "Which of the following is not an actuator in IoT?",
+        "Options": [ "Stepper motor", "A fan", "An LED", "Arduino" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "IOT010",
+        "Text": "Which of the following is true about Arduino IoT devices?",
+        "Options": [ "They are open-source software", "They can only read analog inputs", "They have their own operating systems", "They don’t have pre-programmed firmware" ],
+        "CorrectIndex": 0
+      }
+    ]
+  },
+  {
+    "GroupName": "Computer Science and Systems",
+    "Questions": [
+      {
+        "Id": "CSS001",
+        "Text": "An operating system adopts the priority scheduling \n algorithm for scheduling processes. Five processes P1-P4 \n(note: four provided in list) arrive at the same time with running \n times 10, 32, 6, and 22ms and priorities 3, 4, 2, and 1.\n What is the mean total waiting time?",
+        "Options": [ "14", "16", "20", "22" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "CSS002",
+        "Text": "What is the primary challenge for quantum computing today?",
+        "Options": [ "Lack of enough qubits to perform complex tasks", "High power consumption", "Difficulty in interfacing with classical systems", "Limited quantum algorithms available" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "CSS003",
+        "Text": "What is the primary benefit of CPU \n pipelining in computer architecture?",
+        "Options": [ "It increases the clock speed of the CPU.", "It minimises the power consumption of the CPU.", "It allows multiple instructions to be processed simultaneously in different stages.", "It reduces the size of the CPU" ],
+        "CorrectIndex": 2
+      },
+      {
+        "Id": "CSS004",
+        "Text": "Which of the following best describes \n a fundamental characteristic of quantum computing?",
+        "Options": [ "Quantum computers use classical bits (1s and 0s) to process information.", "Quantum computers rely on quantum bits (qubits) that can exist in multiple states simultaneously.", "Quantum computers are slower than traditional computers.", "Quantum computers are limited to solving only mathematical problems." ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "CSS005",
+        "Text": "ABC company applies a three-generation backup policy.\n The ABC company’s system automatically performs\n full back up on the 10th, 17th, and 25th of each month.\n If the latest back up was performed on 17th September, \n what is the date that the oldest information was backed up?",
+        "Options": [ "17th August", "25th August", "10th September", "17th September" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "CSS006",
+        "Text": "For 2 GHz CPU & 4 nano-sec memory,\n CPU wait time (cycles) is:",
+        "Options": [ "3", "8", "12", "No wait time" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "CSS007",
+        "Text": "What is the name of the first-ever hard disk drive?",
+        "Options": [ "IBM RAMAC 305", "Seagate ST506", "WD My Passport", "Hitachi Deskstar" ],
+        "CorrectIndex": 0
+      },
+      {
+        "Id": "CSS008",
+        "Text": "When a collection of various computers appears as a \n single coherent system to its clients, what is this called?",
+        "Options": [ "mail system", "networking system", "computer network", "distributed system" ],
+        "CorrectIndex": 3
+      },
+      {
+        "Id": "CSS009",
+        "Text": "Which one of the following is not a function of network layer?",
+        "Options": [ "congestion control", "error control", "routing", "inter-networking" ],
+        "CorrectIndex": 1
+      },
+      {
+        "Id": "CSS010",
+        "Text": "What are nodes in a computer network?",
+        "Options": [ "the computer that routes the data", "the computer that terminates the data", "the computer that originates the data", "all of the mentioned" ],
+        "CorrectIndex": 3
+      }
+    ]
+  },
+  {
+    "GroupName": "SampleQuestions",
+    "Questions": [
+      {
+        "Id": "SQ001",
         "Text": "What planet is known as the Red Planet?",
         "Options": [ "Earth", "Mars", "Jupiter", "Saturn" ],
         "CorrectIndex": 1
       },
       {
-        "Id": "SC002",
+        "Id": "SQ002",
         "Text": "What is the boiling point of water?",
         "Options": [ "90°C", "100°C", "110°C", "120°C" ],
         "CorrectIndex": 1
